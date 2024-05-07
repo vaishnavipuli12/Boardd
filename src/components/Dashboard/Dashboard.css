@@ -1,0 +1,379 @@
+.dashboard-con {
+  width: 100%;
+  /* height: 100vh; */
+}
+.horizontal-rule {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(14, 10, 10, 0.1) !important;
+  width: 100%;
+  color: #0b3657;
+}
+.userName {
+  font-size: 15px;
+  margin-left: 10px !important;
+  color: #0b313f;
+}
+.collapse-left {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: #0b313f;
+}
+ul {
+  width: 100%;
+}
+.list-item {
+  width: 100%;
+  height: 40px;
+}
+
+.main-board-name{
+   font-size: 14px !important;
+}
+
+.link-area {
+  width: 100%;
+  max-width: 200px;
+  max-width: 250px;
+  height: 35px;
+  font-size: 16px;
+  background-color: #0b3657 !important;
+  box-shadow: 10px 0px 8px #cbcdd1, 1px 1px 20px #cbced1;
+  color: #e3e3e3;
+  font-weight: 600;
+  padding: 5px 10px 5px 10px;
+}
+.link-area:hover {
+  text-decoration: none;
+  width: 100%;
+  /* color:#123558; */
+  color: #f5f7f8;
+}
+.link-area:focus {
+  text-decoration: none;
+  color: #f5f7f8;
+  font-size: 16px;
+}
+
+.active{
+  background-color: #bddef8;
+  color: rgb(10, 26, 50);
+}
+
+.add-button {
+  float: right;
+  font-size: 20px;
+  color: rgb(79, 137, 194);
+}
+.add-button:hover {
+  cursor: pointer;
+}
+.align-all-item {
+  align-items: center;
+}
+.form-area {
+  display: flex;
+}
+.remove-btn {
+  float: right;
+  margin-left: 10px;
+  height: 30px;
+  align-self: center;
+}
+/* Container area */
+.container-data {
+  height: 60px;
+  padding: 0px !important;
+}
+
+/* .content-container{
+  height: 520px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+} */
+
+/* Navbar style */
+.navbar {
+  width: 100%;
+  max-height: 55px;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.navbarstyle {
+  background: #ecf0f3;
+  box-shadow: 10px 0px 8px #cbcdd1, 1px 1px 20px #cbced1;
+}
+.nav-button {
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-style {
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #7d7b7b;
+  background-color: #ecf0f3;
+  border: none;
+  cursor: pointer;
+  margin: 0px 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+  color: #000;
+  border-bottom: 2px solid #828181;
+}
+
+.isActive-btn {
+  border-bottom: 2px solid #828181;
+  color: #212529 !important;
+}
+
+.isActive-Sidebar{
+  border-color: #49b5fd !important;    
+  box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0,255,239,.1), inset 0 0 15px 2px #e1e6f7 !important; 
+  color: #49b5fd !important; 
+}
+
+/* .border-area-link{
+  border-bottom: 2px solid #0b3657 !important;
+} */
+
+/* Side Bar Styles */
+.side-bar-container {
+  width: 100%;
+  max-width: 270px;
+  background: #ecf0f3;
+  box-shadow: 10px 0px 8px #cbcdd1, 1px 1px 2px #cbced1;
+}
+.side-bar-container .dropdown{
+  cursor: pointer;
+}
+.sidebarcollpase {
+  width: 100%;
+  max-width: 100px;
+  /* background-color: #21252950; */
+  background: #ecf0f3;
+  box-shadow: 10px 0px 8px #cbcdd1, 1px 1px 2px #cbced1;
+}
+
+.sidebar-navlinks-section{
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+  max-height: 600px;
+  overflow-y: scroll;
+  padding: 0 0 0 5px;
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+}
+
+.sidebar-navlinks-section::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.list-item{
+ width: 100%;
+}
+
+.readOnly-btn{
+  margin-left: 10px;
+  height: 30px;
+  align-self: center;
+}
+
+.edit-btn{
+  margin-left: 10px;
+  height: 30px;
+  align-self: center;
+}
+
+.btn.focus, .btn:focus, .btn:hover{
+  color: #558cfc;
+}
+
+.btn:hover{
+  color: #fff;
+}
+
+.sidebar-input-style{
+  font-size: 1.5rem;
+}
+
+.sidebar-button-style{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(5, 25, 53);
+  border: none;
+  background-color: #bddef8 !important;
+  /* border-bottom: 2px solid #0796fc; */
+}
+
+.wrapper.stripe {
+  /* background-color: #8c9eef; */
+  height: 45px;
+  padding: 5px 10px 5px 0px;
+  width: 152px;
+}
+
+.block-wrapper {
+  display: inline-block;
+  text-align: center;
+}
+
+#defnic.gps-button-wrapper a.gps-button {
+  background-color: rgba(255,255,255,0);
+  /* border: 2px solid #106fe7; */
+  border: 2px solid #0b3657;
+  border-radius: 100px;
+  color: #0b3657;
+  display: inline-block;
+  font: normal normal 14px / 14px "Palanquin Dark", Helvetica, Arial, Verdana, sans-serif;
+  overflow: hidden;
+  padding: 7px 10px;
+  position: relative;
+  text-decoration: none;
+  transition: all .75s ease-in-out; 
+  z-index: 1; 
+  height: 35px;
+  min-width: 150px;
+  width: 100%;
+  max-width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#defnic.gps-button-wrapper a.gps-button:hover, 
+#defnic.gps-button-wrapper a.gps-button:focus {
+  color: #fff; 
+  font-weight: 500;
+  transition: all .75s ease-in-out; 
+}
+
+#defnic.gps-button-wrapper a.gps-button::before {
+  /* background: linear-gradient(#106fe7, #106fe7) -100px 0 no-repeat; */
+  background: linear-gradient(#0b3657, #0b3657) -100px 0 no-repeat;
+  content: "";
+  display: inline-block;
+  height: 10em;
+  width: 200%;
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: -30%;
+
+  -webkit-transform: skewX(-30deg) translateX(-80%);
+      -ms-transform: skewX(-30deg) translateX(-80%);
+          transform: skewX(-30deg) translateX(-80%); 
+  
+  transition: opacity .75s ease-in-out, -webkit-transform 0s .85s;
+  transition: opacity .75s ease-in-out, -ms-transform 0s .85s;
+  transition: opacity .75s ease-in-out, transform 0s .85s; 
+
+  z-index: -1; 
+}
+
+#defnic.gps-button-wrapper a.gps-button:hover::before, 
+#defnic.gps-button-wrapper a.gps-button:focus::before {
+  opacity: 1;
+  
+  -webkit-transform: skewX(-30deg) translateX(0);
+      -ms-transform: skewX(-30deg) translateX(0);
+          transform: skewX(-30deg) translateX(0); 
+  
+  transition: -webkit-transform 1s ease-in-out;
+  transition: -ms-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out; 
+}
+
+/* STRIPE BUTTONS */
+/* #defnic.stripe {
+  background-image:	linear-gradient(to bottom, #106fe7, #084c9d);
+} */
+
+.stripe #defnic.gps-button-wrapper a.gps-button {
+  background-color: #fff;
+  /* border-color: #fff;
+  color: #106fe7;  */
+  color: #0b3657;
+  border: 2px solid #0b3657;
+}
+
+.stripe #defnic.gps-button-wrapper a.gps-button:not(.subtle)::before {
+  background-image: none; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button:focus {
+  border-color: #23bc82;  
+  box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0, 255, 198,.15), inset 0 0 15px 2px #c6f3ff; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle {
+  background-color: rgba(255,255,255,0); 
+  /* color: #fff;  */
+  color: #0b3657;
+}
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle::before {
+  background-image: linear-gradient(#fff, #fff); }
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle:focus {
+  border-color: #23bc82; 
+  box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0, 255, 198,.15), inset 0 0 15px 2px #c6f3ff;
+  color: #106fe7; 
+}
+
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:focus {
+  border-color: #49b5fd;  
+  box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0,255,239,.1), inset 0 0 15px 2px #e1e6f7; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle:focus {
+  border-color: #49b5fd;    
+  box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0,255,239,.1), inset 0 0 15px 2px #e1e6f7; 
+  /* color: #00d463;  */
+  /* color: #0b3657; */
+  color: #49b5fd; 
+}
+
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:focus {
+  /* color: #00d463;  */
+  color: #0b3657;
+}
+
+.stripe #defnic.gps-button-wrapper a.gps-button.small:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.small:focus, 
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.small:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.small:focus {
+  box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0, 255, 198,.12), inset 0 0 15px 2px #c6f3ff; }
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.small:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.small:focus, 
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle.small:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle.small:focus {
+  box-shadow: 0 0 15px 5px rgba(18, 236, 192, .3), 0 0 0 7px rgba(0,255,239,.09), inset 0 0 15px 2px #e1e6f7;
+}
+
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.dull:hover, 
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.dull:focus {
+  border-color: #fff; 
+  box-shadow: none !important; 
+}
+
+.contextualMenu-styles{
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}

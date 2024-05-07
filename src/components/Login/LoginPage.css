@@ -1,0 +1,41 @@
+.card-container.card-container-login {
+    padding: 30px;
+    /* justify-content: center; */
+}
+
+.login-title {
+    display: flex;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.form-control{
+    font-size: 14px;
+}
+
+#login .errorMessage {
+    color: #ed2f2f;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #000000;
+    opacity: 1;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logout-style {
+    margin-left: 5px;
+    color: #00f;
+    opacity: 0.8;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.logout-style:hover {
+    opacity: 1;
+}
+  

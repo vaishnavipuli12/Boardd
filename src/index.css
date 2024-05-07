@@ -1,0 +1,122 @@
+:root{
+  --bodyBg: linear-gradient(45deg, #9fb0ab, transparent);
+  --formBg: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.fade {
+  opacity: 1;
+}
+.card-container {
+  margin: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-family: Segoe UI;
+  background: var(--bodyBg);
+}
+
+.form-container{
+  min-width: 250px;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 1% 10%;
+  background-color: var(--formBg);
+  box-shadow: 0 0 5px #b9b6b6;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.trouble-text-container {
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+.header-title{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-style {
+  width: 30px;
+}
+
+.logo-label {
+  font-size: 28px;
+  margin: 0px;
+  padding-bottom: 8px;
+  color: #5a5afa;
+}
+
+.login-logo-sup {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input-icon-style {
+  color: #878584;
+  width: 30px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.input-box-style {
+  border: 0;
+  height: 38px;
+  width: 100%;
+  outline: none;
+}
+.heading-style {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(131, 194, 252);
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-button {
+  font-weight: bold;
+  font-size: 17px !important;
+  color: #ffffff;
+  min-width: 100px;
+  width: 100%;
+  max-width: 250px;
+  flex: 0 0 45px;
+  align-items: center;
+  margin: 2px 0px;
+  background-color: #3dafd8;
+  outline: none !important;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin: 0 auto;
+}

@@ -1,0 +1,121 @@
+/* Modal Styles */
+.custom-modal-dialog {
+    width: 1000px;
+    height: 500px;
+}
+
+.custom-modal-content {
+    width: 700px;
+    height: 100%;
+    background-color: #e6e3e3;
+}
+  
+.modal-header .btn-close {
+    margin-right: 5px; 
+}
+
+.todo-modal{
+    width: 100%;
+    max-width: 600px;
+}
+
+.modal-body {
+    height: 300px;
+    overflow-y: auto;
+}  
+
+/* Modal left side content styles */
+.left-header{
+    padding: 20px 0px 0px 5px;
+}
+.left-modal-body{
+    flex: 0 0 60%;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+/* Modal right side content styles */
+.right-modal-body{
+    flex: 0 0 40%;
+    margin: 0px auto;
+}
+
+.right-content {
+    padding: 0px 5px 5px;
+  }
+  
+.right-context-header{
+    border-bottom: 1px solid #ccc;
+}
+.close-icon {
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.date-button, .attachment-button{
+    width: 250px;
+    height: 6vh;
+    background: #b4b2b2;
+    color: #231b1b;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.right-modal-body .date-button:hover, .right-modal-body .attachment-button:hover{
+    background: #797878;
+    color: #f9fafa;
+}
+
+.right-content-footer{
+    display: grid;
+    align-items: center;
+}
+
+.file_attachment{
+    padding: 0.85rem 0.75rem;
+}
+
+.file_attachment:focus:active{
+    outline: none;
+    border: none;
+}
+
+.image-preview{
+    display: flex;
+    justify-content: center;
+}
+
+.right-modal-body .date-save-btn,.right-modal-body .date-remove-btn{
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+.right-modal-body .date-save-btn:focus:active, .right-modal-body .date-remove-btn:focus:active{
+    outline: none;
+}
+
+.footer-buttons{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+.close-btn, .save-btn{
+    font-size: 13px;
+    padding: 5px 12px;
+}
+
+.close-btn:focus:active, .save-btn:focus:active{
+    outline: none;
+}
+
+.errorMessage{
+    color: #f00;
+    font-size: 14px;
+    margin: 4px 0px 0px 2px;
+}

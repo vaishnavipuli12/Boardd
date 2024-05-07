@@ -1,0 +1,73 @@
+* {
+  font-size: 12px;
+}
+.board-area {
+  padding: 10px;
+}
+.board-todo {
+  height: auto;
+  width: 100%;
+  background-color: #212529;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.icon-area {
+  float: right;
+  font-size: 16px;
+}
+.board-doing {
+  height: auto;
+  width: 100%;
+  background-color: #212529;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.board-done {
+  height: auto;
+  width: 100%;
+  background-color: #212529;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.card-items-section {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  overflow-y: scroll;
+  padding: 0 0 0 5px;
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+}
+
+.card-items-section::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.add_card-btn {
+  padding: 3px;
+  border: none;
+  background-color: #212529;
+  color: #fff;
+}
+
+.card-footer-styles {
+  font-size: 16px;
+}
+
+.icons-footer{
+  float: right;
+}
+
+.icons-footer-item {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.dueDateText p {
+  font-size: 10px;
+}
